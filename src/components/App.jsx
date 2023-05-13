@@ -12,7 +12,8 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const options = ['good', 'neutral', 'bad'];
+  const options = ['Good', 'Neutral', 'Bad'];
+
 
   const handleLeaveFeedback = (option) => {
     switch (option) {
