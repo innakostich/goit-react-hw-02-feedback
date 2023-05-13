@@ -1,7 +1,8 @@
-.allContacts {
-    margin-bottom: 10px;
-  }
-  
-  .titleContacts {
-    margin-top: 70px;
-  }
+.container {
+  margin: 50px auto;
+  width: 400px;
+  /* padding: 10px; */
+  border: 1px solid black;
+  box-shadow: 16px 16px 32px rgb(165, 164, 164), -16px -16px 32px rgb(182, 181, 181);
+  background-color: rgb(253, 253, 253);
+}
