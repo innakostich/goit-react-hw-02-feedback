@@ -1,9 +1,4 @@
-// import React, { useState } from 'react';
-// import { Section } from './Section';
-// import { FeedbackOption } from './FeedbackOption';
-// import { Statistics } from './Statistics';
-// import { Notification } from './Notification';
-// import css from './App.module.css';
+
 import React, { useState } from 'react';
 import Section from './Section/Section';
 import FeedbackOption from './FeedbackOption/FeedbackOption';
@@ -49,13 +44,13 @@ const App = () => {
 
   return (
     <div className={css.app}>
-      <Section title="Leave Feedback">
+      <Section title="Please leave feedback">
         <FeedbackOption options={options} onLeaveFeedback={handleLeaveFeedback} />
       </Section>
 
       <Section title="Statistics">
         {countTotalFeedback() === 0 ? (
-          <Notification message="There is no feedback" />
+          <Notification message="No feedback given :(" />
         ) : (
           <Statistics
             good={good}

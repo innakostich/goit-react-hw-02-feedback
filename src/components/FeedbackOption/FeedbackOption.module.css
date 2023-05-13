@@ -1,4 +1,4 @@
-/* .btn {
+.btn {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
@@ -22,18 +22,5 @@
     color: #000;
     background-image: linear-gradient(#83f3e4, #ececec);
   }
-   */
-   .button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
   
-  .button:hover {
-    background-color: #45a049;
-  }
-  
+   

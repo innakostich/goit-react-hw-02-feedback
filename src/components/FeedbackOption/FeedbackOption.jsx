@@ -28,25 +28,3 @@ FeedbackOptions.propTypes = {
 };
 
 export default FeedbackOptions;
-// import React from 'react';
-// import PropTypes from 'prop-types';
-// import css from './FeedbackOption.module.css';
-
-// const FeedbackOption = ({ option, onLeaveFeedback }) => {
-//   return (
-//     <button
-//       type="button"
-//       className={css.button}
-//       onClick={() => onLeaveFeedback(option)}
-//     >
-//       {option}
-//     </button>
-//   );
-// };
-
-// FeedbackOption.propTypes = {
-//   option: PropTypes.string.isRequired,
-//   onLeaveFeedback: PropTypes.func.isRequired,
-// };
-
-// export default FeedbackOption;
