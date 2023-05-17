@@ -1,26 +1,28 @@
-.btn {
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #022524;
-    background-color: #83f3e4;
-    border: 1px solid #a1a1a1;
-    border-radius: 4px;
-    text-align: center;
-    padding: 1px 5px;
-    width: 90px;
-    margin: 20px auto;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2),
-      inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-    background-image: linear-gradient(#83f3e4, #119b94);
-  }
-  
-  .btn:hover {
-    background-color: #83f3e4;
-    color: #000;
-    background-image: linear-gradient(#83f3e4, #ececec);
-  }
-  
-   
+
+
+     .btn {
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #022524;
+      background-color: #83f3e4;
+      border: 1px solid #a1a1a1;
+      border-radius: 4px;
+      text-align: center;
+      padding: 1px 5px;
+      width: 90px;
+      margin: 20px auto;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2),
+        inset 0 0 6px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.4);
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+      background-image: linear-gradient(#83f3e4, #119b94);
+    }
+    
+    .btn:hover {
+      background-color: #83f3e4;
+      color: #000;
+      background-image: linear-gradient(#83f3e4, #ececec);
+    }
+    
