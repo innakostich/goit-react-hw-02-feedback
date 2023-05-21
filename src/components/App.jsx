@@ -107,11 +107,13 @@ class App extends React.Component {
     const totalFeedback = this.countTotalFeedback();
     const positivePercentage = this.countPositiveFeedbackPercentage();
 
+    const options = Object.keys(this.state);
+
     return (
       <div className={css.app}>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['good', 'neutral', 'bad']}
+            options={options}
             onLeaveFeedback={this.handleLeaveFeedback}
           />
         </Section>
